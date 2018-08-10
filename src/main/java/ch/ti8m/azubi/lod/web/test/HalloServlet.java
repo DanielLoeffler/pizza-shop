@@ -18,7 +18,7 @@ public class HalloServlet extends HttpServlet{
         writer.write("</head>");
         writer.write("<link rel=\"stylesheet\" href=\"style.css\">");
         writer.write("<body>");
-        writer.write("<h1>Hello Servlet</h1>");
+        writer.write("<h1>Hello Servlet Hello</h1>");
         writer.write("Current time is: "+LocalDateTime.now());
         writer.write("</body>");
         writer.write("</html>");
